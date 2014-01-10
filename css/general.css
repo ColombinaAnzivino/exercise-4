@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* Responsive Setup */
+
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html{
+	-monz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	-text-size-adjust: 100%;
+}
+
+/* CSS */
+
+html, body{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+img{
+	width: 100%;
+}
+
+main{
+	width: 100%;
+	background-color: #333;
+	height: 18rem;
+}
+
+.logo{
+	display:compact;
+	position: absolute;
+	padding-top: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+nav ul {
+	width: 100%;
+	position:absolute;
+	height: 3rem;
+	background-color: #888;
+	text-align: center;
+	font-size: 1rem;
+	padding-top: .8rem;
+	text-decoration: none;
+}
+
+nav li{
+	display: inline;
+	padding: 1rem 4%;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+	background-color: #333;
+	padding-top: 1rem;
+	padding-left:.5rem;
+	padding-right: .5rem;
+	padding-bottom: .9rem;
+}
+
+nav a,
+nav a:link,
+nav a: visited {
+	display: inline-block;
+	height: 3rem;
+}
+
+nav .selected {
+	color: #FFF;
+	text-decoration:none;
+}
+
+.placeholder{
+	margin-top:4rem;
+}
+
+h2{
+	font-size:1rem;
+	padding:.5rem .5rem 0 2rem;
+	margin-top:2rem;
+}
+
+h3,h4{ 
+	font-size: 1rem;
+	padding:.5rem .5rem 0 2rem;
+	margin-top: 5rem;
+}
+
+li {
+	list-style-type: disc;
+	list-style-position: inside;
+	padding: .5rem .5rem 0 2rem;
+	line-height: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+p{
+	font-size: 1rem;
+	padding: .5rem .5rem 0 2rem;
+}
+
+table,th,td{
+	margin-left: 1rem;
+	border: 1px solid black; 
+	width:70%;
+	height:2rem;
+	padding: 1rem 1rem 1rem 1rem;
+}
+
+td{
+	text-align: left;
+	font-size: 1rem;
+	color:#FFF;
+	background-color: #CCC;
+}
+
+.bottom{
+	width: 100%;
+	height: 4rem;
+	background-color: #333;
+	color: #FFF;
+	font-size: .5rem;
+	padding: 1.5rem .5rem .5rem 1rem;
+	margin-top: 5rem;
+}
